@@ -31,7 +31,8 @@ module.exports = function(defaults) {
             module: require('@csstools/postcss-sass'),
             options: {
               includePaths: [
-                'node_modules'
+                'node_modules',
+                // 'app/styles/component-styles'
               ],
             },
           },
